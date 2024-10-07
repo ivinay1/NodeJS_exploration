@@ -1,0 +1,26 @@
+
+Memory updated
+Here's a concise structure for package.json in Node.js:
+
+1. What is package.json?
+It’s a configuration file used in Node.js projects that holds metadata about the project, including dependencies, scripts, and other settings.
+
+2. Key Fields
+name: The project name.
+version: The project version.
+description: A brief description of the project.
+main: Entry point of the application (e.g., index.js).
+scripts: Defines shortcut commands (e.g., "start": "node app.js").
+dependencies: Lists external packages your project depends on.
+devDependencies: Packages needed only for development (e.g., testing libraries).
+license: Specifies the licensing terms.
+
+3. How to Create package.json?
+Run npm init in the terminal and answer the prompts, or use npm init -y to create it with default values.
+
+4. Important Commands
+npm install: Installs all dependencies listed in package.json.
+npm run <script>: Runs the script defined under "scripts".
+
+5. What Did I Learn?
+package.json centralizes the project’s configuration, making it easier to manage dependencies and scripts
